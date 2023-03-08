@@ -9,11 +9,33 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyTeclitas"
+        android:theme="@style/Theme.MyProyectito"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDofUivHGB3XDIZ_uQw0k-OKSTYja0Bq1w"
+            />
+
+        <activity
+            android:name=".Recoverpass"
+            android:exported="false" />
+        <activity
+            android:name=".Website"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpass"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
